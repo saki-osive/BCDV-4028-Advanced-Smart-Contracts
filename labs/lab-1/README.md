@@ -14,6 +14,9 @@ Submission Process:
 Solution
 --------
 
+Part-1: Sort the array
+``````````````````````
+
 The solution file is attached in the directory as `ArrayUtils.sol`.
 
 - First, we deploy the Contract.
