@@ -31,4 +31,12 @@ The solution file is attached in the directory as `ArrayUtils.sol`.
 ![Output](./images/lab1-3.png "Output")
 
 
+*Part-2: Remove duplicates from the array*
 
+- First, we feed an array to the function with duplicate elements inside.
+
+![Inputting](./images/lab1-4.png "Input")
+
+- After we execute the function, we receive output from the function as an array with no duplicate elements.
+
+![Output](./images/lab1-5.png "Output")
