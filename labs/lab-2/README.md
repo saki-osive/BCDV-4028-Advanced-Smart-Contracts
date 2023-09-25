@@ -13,3 +13,16 @@ Submission Rules:
 - Solidity File.
 - Read Me with a screenshots for outputs from Remix.
 - Include comments for each statement in the solidity file to explain the steps.
+
+
+Solution
+----------
+
+- First we deploy the contract.
+
+![Deploying the contract](./images/1.png "Deploying")
+
+
+- After this, we aim to change the state variable of the contract by using the changeStorageData()
+
+![Changing the variables](./images/2.png "Deployed")
