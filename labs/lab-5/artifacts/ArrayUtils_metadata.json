@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256[]",
+						"name": "sortedArray",
+						"type": "uint256[]"
+					}
+				],
+				"name": "ArraySorted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256[]",
+						"name": "uniqueArray",
+						"type": "uint256[]"
+					}
+				],
+				"name": "DuplicatesRemoved",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ArrayLab1.sol": "ArrayUtils"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ArrayLab1.sol": {
+			"keccak256": "0x2a21548899868100beb8883f78497304cda32c09201b3c2119530d6c0292fcb6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://42ffbbf51816ffa7cc740fe37f6343f3a2bf8259e11ece7257629a6e1fc6632c",
+				"dweb:/ipfs/QmQqCw7CX3sdHaaMPWQBqd4NoNpBUXYPKGT41C3wqLNBSp"
+			]
+		}
+	},
+	"version": 1
+}

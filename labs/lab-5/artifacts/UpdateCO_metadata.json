@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_newValue",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Lab2Task.sol": "UpdateCO"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Lab2Task.sol": {
+			"keccak256": "0x5e7a5fc60acb3a6e3cf6ab61e5034d1ef8be74b3150be3f9f8f26da0169137da",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1a6b1d532530b56f56b7f87cb8e986a99e6f7c959faa46e3c370b3cefa83fc1e",
+				"dweb:/ipfs/QmR8UcT7UA2NwsBnY9yX27wD3BPkScZJE2p6VhzdXQEFpc"
+			]
+		}
+	},
+	"version": 1
+}

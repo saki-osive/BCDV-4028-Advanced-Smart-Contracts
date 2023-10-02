@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.7.0+commit.9e61f92b"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addressToWhitelist",
+						"type": "address"
+					}
+				],
+				"name": "addUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_whitelistedAddressToRemove",
+						"type": "address"
+					}
+				],
+				"name": "deleteUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_whitelistedAddress",
+						"type": "address"
+					}
+				],
+				"name": "verifyUser",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"whitelist.sol": "Whitelist"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"whitelist.sol": {
+			"keccak256": "0xd31e76a028f2ea0eb578f2b97dada99d51d198bb3a0dac8527a7ab50c5286092",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4b725dafc3bbddd85d1331b747d86f83741ae9ed83231e674b23e6771e9b2d6f",
+				"dweb:/ipfs/QmXQry8wjes5ZQGjABrcwnVMsFdexEfDai9xHfxXNHNGkV"
+			]
+		}
+	},
+	"version": 1
+}

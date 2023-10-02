@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getChoice",
+				"outputs": [
+					{
+						"internalType": "enum EnumDemo.size",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum EnumDemo.size",
+						"name": "_choice",
+						"type": "uint8"
+					}
+				],
+				"name": "setChoice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"frenchFries.sol": "EnumDemo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"frenchFries.sol": {
+			"keccak256": "0xc17f46b1ab52fea39017114ec3de07b6b0a84c0f6cd6c80b32bf57805942a71b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6c21577b54c2056b2a5ca5763fb8692aa60fcbf612bb8d3f16db89acf26f6c90",
+				"dweb:/ipfs/QmXsbUjnihez5h7GXbMrqMLCxQp5y4UJd8tUW96TCREqje"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ArrayLab.sol": "ArrayTweaks"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ArrayLab.sol": {
+			"keccak256": "0xb567c078fa2aeb9d228d96b85c6eb3845907687e9fbe016dd8cef0ccb5ea9749",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ee535aa606531b0903e0df40a53d23fe2c93b89641ff0d9c4093f240c1cd99da",
+				"dweb:/ipfs/QmQ4nP7r3tgu2AtceAs2P62wT43UmNjpY4RJQNKZAVZd9D"
+			]
+		}
+	},
+	"version": 1
+}

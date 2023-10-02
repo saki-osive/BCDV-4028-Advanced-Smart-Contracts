@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addressToWhitelist",
+						"type": "address"
+					}
+				],
+				"name": "addUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_whitelistedAddress",
+						"type": "address"
+					}
+				],
+				"name": "verifyUser",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"whitelist.sol": "WhiteList"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"whitelist.sol": {
+			"keccak256": "0x5d953f352d2a367247bcc9d96d8438ff79f67fee93417d0ec3ec49844fe8bc8c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dae6eb443324cc82b170a5d68fc2f1fc2966bbd13be2b7f7467fda23f69db148",
+				"dweb:/ipfs/QmUtwKcrjxXWAkWjBtZfxTJyZKPrZjdVSf918wYeqtzc9E"
+			]
+		}
+	},
+	"version": 1
+}
