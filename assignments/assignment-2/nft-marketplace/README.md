@@ -1,6 +1,7 @@
 # Video
 
+Please refer to the VIDEO folder
 
 ## Screenshots
 
-Please refer to the IMAGES folder for 
+Please refer to the IMAGES folder
